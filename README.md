@@ -1,17 +1,10 @@
-# Nome do projeto
+# Compromissos
 Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 
-## Alunos integrantes da equipe
+## Aluno
 
 * Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 4
-* Nome completo do aluno 4
 
-## Professores responsáveis
+## Professor responsável
 
-* Nome completo do professor 1
-* Nome completo do professor 2
-
+* Prof. João Caram (DCC - ICEI - PUC Minas)
