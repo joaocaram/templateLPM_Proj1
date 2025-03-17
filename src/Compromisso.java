@@ -16,8 +16,8 @@ public class Compromisso {
 			quando = LocalDateTime.now().plusHours(1);
 		this.quando = quando;
 		switch (tipo) {
-			case 1, 2, 3 -> desc += "("+TAGS[tipo-1]+")";
-			default -> desc += "("+TAGS[2]+")";
+			case 1, 2, 3 -> descricao += " ("+TAGS[tipo-1]+")";
+			default -> descricao += " ("+TAGS[2]+")";
 		}
 	}
 
@@ -30,8 +30,8 @@ public class Compromisso {
 	}
 
 	public String relatorio() {
-		DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yy às hh:mm");
-		return String.format("%s em $s", descricao, formato.format(quando));
+		DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yy, HH:mm");
+		return String.format("%02d - %s em %s", identificador, descricao, formato.format(quando));
 	}
 
 	public boolean reagendar(LocalDateTime quando) {
